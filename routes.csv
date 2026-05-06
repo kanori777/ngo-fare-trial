@@ -1,0 +1,15 @@
+route_id,direction,origin,destination,market,airport_group,purpose,active
+NGO_TPE_JP,JP_OUT,NGO,TPE,Taiwan,base,benchmark,TRUE
+TPE_NGO_LOCAL,LOCAL_OUT,TPE,NGO,Taiwan,local,inbound,TRUE
+KIX_TPE_JP,JP_OUT,KIX,TPE,Taiwan,major,benchmark,TRUE
+HIJ_TPE_JP,JP_OUT,HIJ,TPE,Taiwan,regional,diversion,TRUE
+
+NGO_ICN_JP,JP_OUT,NGO,ICN,Korea,base,benchmark,TRUE
+ICN_NGO_LOCAL,LOCAL_OUT,ICN,NGO,Korea,local,inbound,TRUE
+KIX_ICN_JP,JP_OUT,KIX,ICN,Korea,major,benchmark,TRUE
+HIJ_ICN_JP,JP_OUT,HIJ,ICN,Korea,regional,diversion,TRUE
+
+NGO_HKG_JP,JP_OUT,NGO,HKG,HongKong,base,benchmark,TRUE
+HKG_NGO_LOCAL,LOCAL_OUT,HKG,NGO,HongKong,local,inbound,TRUE
+KIX_HKG_JP,JP_OUT,KIX,HKG,HongKong,major,benchmark,TRUE
+HIJ_HKG_JP,JP_OUT,HIJ,HKG,HongKong,regional,diversion,TRUE
