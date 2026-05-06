@@ -1,0 +1,40 @@
+name: Fare Tracking Trial
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 22 */3 * *"
+
+permissions:
+  contents: write
+
+jobs:
+  run-fare-tracking:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run fare tracking
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          python main.py
+
+      - name: Commit output file
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add fare_result_*.csv
+          git commit -m "Add fare tracking result" || echo "No changes to commit"
+          git push
