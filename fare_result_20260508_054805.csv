@@ -1,0 +1,13 @@
+﻿check_date,direction,origin,destination,market,purpose,departure_date,airline,price,status
+2026-05-08 05:47:51,JP_OUT,NGO,TPE,Taiwan,benchmark,2026-06-07,タイガーエア台湾,24680,OK
+2026-05-08 05:47:51,LOCAL_OUT,TPE,NGO,Taiwan,inbound,2026-06-07,タイガーエア台湾,23483,OK
+2026-05-08 05:47:51,JP_OUT,KIX,TPE,Taiwan,benchmark,2026-06-07,タイガーエア台湾,21730,OK
+2026-05-08 05:47:51,JP_OUT,HIJ,TPE,Taiwan,diversion,2026-06-07,チャイナ エアライン,79890,OK
+2026-05-08 05:47:51,JP_OUT,NGO,ICN,Korea,benchmark,2026-06-07,チェジュ航空,21180,OK
+2026-05-08 05:47:51,LOCAL_OUT,ICN,NGO,Korea,inbound,2026-06-07,チェジュ航空,15405,OK
+2026-05-08 05:47:51,JP_OUT,KIX,ICN,Korea,benchmark,2026-06-07,エアソウル,19630,OK
+2026-05-08 05:47:51,JP_OUT,HIJ,ICN,Korea,diversion,2026-06-07,チェジュ航空,21700,OK
+2026-05-08 05:47:51,JP_OUT,NGO,HKG,HongKong,benchmark,2026-06-07,チェジュ航空,47640,OK
+2026-05-08 05:47:51,LOCAL_OUT,HKG,NGO,HongKong,inbound,2026-06-07,JAL,67310,OK
+2026-05-08 05:47:51,JP_OUT,KIX,HKG,HongKong,benchmark,2026-06-07,Peach,20730,OK
+2026-05-08 05:47:51,JP_OUT,HIJ,HKG,HongKong,diversion,2026-06-07,チェジュ航空,48160,OK
