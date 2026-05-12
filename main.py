@@ -6,16 +6,40 @@ from datetime import datetime, timedelta
 SERPAPI_KEY = os.environ.get("SERPAPI_KEY")
 ROUTES_FILE = "routes.csv"
 
+TARGET_WEEKS = [1, 4, 8]
+
+TARGET_WEEKDAYS = [
+    {"name": "Wednesday", "weekday": 2, "jp": "水"},
+    {"name": "Friday", "weekday": 4, "jp": "金"},
+]
+
 CABIN_CLASSES = [
     {"name": "Economy", "code": "1"},
     {"name": "Premium Economy", "code": "2"},
     {"name": "Business", "code": "3"},
 ]
 
-def date_after(days=30):
-    return (datetime.now() + timedelta(days=days)).strftime("%Y-%m-%d")
+def target_date_for_weekday(weeks_ahead, target_weekday):
+    today = datetime.now().date()
+    base_date = today + timedelta(weeks=weeks_ahead)
 
-def fetch_flights(origin, destination, outbound_date, airline_code, cabin_class_name, cabin_class_code):
+    # Monday=0, Tuesday=1, Wednesday=2, ... Sunday=6
+    monday_of_target_week = base_date - timedelta(days=base_date.weekday())
+    target_date = monday_of_target_week + timedelta(days=target_weekday)
+
+    return target_date.strftime("%Y-%m-%d")
+
+def fetch_flights(
+    origin,
+    destination,
+    outbound_date,
+    airline_code,
+    cabin_class_name,
+    cabin_class_code,
+    weeks_ahead,
+    target_weekday_name,
+    target_weekday_jp
+):
     params = {
         "engine": "google_flights",
         "departure_id": origin,
@@ -50,6 +74,7 @@ def fetch_flights(origin, destination, outbound_date, airline_code, cabin_class_
         total_duration = option.get("total_duration", "")
         legs = option.get("flights", [])
 
+        # 直行便のみ採用
         if len(legs) != 1:
             continue
 
@@ -57,6 +82,7 @@ def fetch_flights(origin, destination, outbound_date, airline_code, cabin_class_
         airline = leg.get("airline", "")
         flight_number = leg.get("flight_number", "")
 
+        # フィンエアー便のみ採用
         if (
             "AY" not in str(flight_number)
             and "フィンエアー" not in str(airline)
@@ -65,6 +91,9 @@ def fetch_flights(origin, destination, outbound_date, airline_code, cabin_class_
             continue
 
         rows.append({
+            "weeks_ahead": weeks_ahead,
+            "target_weekday": target_weekday_name,
+            "departure_weekday": target_weekday_jp,
             "cabin_class": cabin_class_name,
             "airline": airline,
             "flight_number": flight_number,
@@ -80,6 +109,9 @@ def fetch_flights(origin, destination, outbound_date, airline_code, cabin_class_
 
     if not rows:
         rows.append({
+            "weeks_ahead": weeks_ahead,
+            "target_weekday": target_weekday_name,
+            "departure_weekday": target_weekday_jp,
             "cabin_class": cabin_class_name,
             "airline": "",
             "flight_number": "",
@@ -100,8 +132,6 @@ def main():
         raise RuntimeError("SERPAPI_KEY is not set")
 
     check_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    departure_date = date_after(30)
-
     output_rows = []
 
     with open(ROUTES_FILE, newline="", encoding="utf-8") as f:
@@ -111,40 +141,53 @@ def main():
             if row.get("active", "").upper() != "TRUE":
                 continue
 
-            for cabin in CABIN_CLASSES:
-                flights = fetch_flights(
-                    origin=row["origin"],
-                    destination=row["destination"],
-                    outbound_date=departure_date,
-                    airline_code=row.get("airline_filter", "AY"),
-                    cabin_class_name=cabin["name"],
-                    cabin_class_code=cabin["code"]
-                )
+            for weeks in TARGET_WEEKS:
+                for weekday in TARGET_WEEKDAYS:
+                    departure_date = target_date_for_weekday(
+                        weeks_ahead=weeks,
+                        target_weekday=weekday["weekday"]
+                    )
 
-                for flight in flights:
-                    output_rows.append({
-                        "check_date": check_date,
-                        "direction": row["direction"],
-                        "origin": row["origin"],
-                        "destination": row["destination"],
-                        "market": row["market"],
-                        "airport_group": row["airport_group"],
-                        "purpose": row["purpose"],
-                        "departure_date": departure_date,
-                        "cabin_class": flight["cabin_class"],
-                        "airline": flight["airline"],
-                        "flight_number": flight["flight_number"],
-                        "aircraft": flight["aircraft"],
-                        "departure_airport": flight["departure_airport"],
-                        "departure_time": flight["departure_time"],
-                        "arrival_airport": flight["arrival_airport"],
-                        "arrival_time": flight["arrival_time"],
-                        "duration": flight["duration"],
-                        "price": flight["price"],
-                        "currency": "JPY",
-                        "status": flight["status"],
-                        "source": "SerpApi Google Flights API"
-                    })
+                    for cabin in CABIN_CLASSES:
+                        flights = fetch_flights(
+                            origin=row["origin"],
+                            destination=row["destination"],
+                            outbound_date=departure_date,
+                            airline_code=row.get("airline_filter", "AY"),
+                            cabin_class_name=cabin["name"],
+                            cabin_class_code=cabin["code"],
+                            weeks_ahead=weeks,
+                            target_weekday_name=weekday["name"],
+                            target_weekday_jp=weekday["jp"]
+                        )
+
+                        for flight in flights:
+                            output_rows.append({
+                                "check_date": check_date,
+                                "direction": row["direction"],
+                                "origin": row["origin"],
+                                "destination": row["destination"],
+                                "market": row["market"],
+                                "airport_group": row["airport_group"],
+                                "purpose": row["purpose"],
+                                "weeks_ahead": flight["weeks_ahead"],
+                                "target_weekday": flight["target_weekday"],
+                                "departure_date": departure_date,
+                                "departure_weekday": flight["departure_weekday"],
+                                "cabin_class": flight["cabin_class"],
+                                "airline": flight["airline"],
+                                "flight_number": flight["flight_number"],
+                                "aircraft": flight["aircraft"],
+                                "departure_airport": flight["departure_airport"],
+                                "departure_time": flight["departure_time"],
+                                "arrival_airport": flight["arrival_airport"],
+                                "arrival_time": flight["arrival_time"],
+                                "duration": flight["duration"],
+                                "price": flight["price"],
+                                "currency": "JPY",
+                                "status": flight["status"],
+                                "source": "SerpApi Google Flights API"
+                            })
 
     output_file = f"ay_direct_fare_result_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
 
@@ -156,7 +199,10 @@ def main():
         "market",
         "airport_group",
         "purpose",
+        "weeks_ahead",
+        "target_weekday",
         "departure_date",
+        "departure_weekday",
         "cabin_class",
         "airline",
         "flight_number",
