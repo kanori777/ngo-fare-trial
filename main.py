@@ -50,7 +50,6 @@ def fetch_flights(origin, destination, outbound_date, airline_code, cabin_class_
         total_duration = option.get("total_duration", "")
         legs = option.get("flights", [])
 
-        # 直行便のみ採用
         if len(legs) != 1:
             continue
 
@@ -58,7 +57,6 @@ def fetch_flights(origin, destination, outbound_date, airline_code, cabin_class_
         airline = leg.get("airline", "")
         flight_number = leg.get("flight_number", "")
 
-        # フィンエアー便のみ採用
         if (
             "AY" not in str(flight_number)
             and "フィンエアー" not in str(airline)
