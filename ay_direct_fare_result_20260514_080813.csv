@@ -1,0 +1,145 @@
+﻿check_date,direction,origin,destination,market,airport_group,purpose,weeks_ahead,target_weekday,departure_date,departure_weekday,cabin_class,airline,flight_number,aircraft,departure_airport,departure_time,arrival_airport,arrival_time,duration,price,currency,status,source
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Premium Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Business,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Premium Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Business,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Premium Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Business,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Premium Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Business,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Premium Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Business,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Premium Economy,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,KIX,Finland-Japan,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Business,,,,HEL,,KIX,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Premium Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Business,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Premium Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Business,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Premium Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Business,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Premium Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Business,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Premium Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Business,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Premium Economy,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,HND,Finland-Japan,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Business,,,,HEL,,HND,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Premium Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Business,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Premium Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Business,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Premium Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Business,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Premium Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Business,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Premium Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Business,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Premium Economy,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NRT,Finland-Japan,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Business,,,,HEL,,NRT,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,1,Wednesday,2026-05-20,水,Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,1,Wednesday,2026-05-20,水,Premium Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,1,Wednesday,2026-05-20,水,Business,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,1,Friday,2026-05-22,金,Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,1,Friday,2026-05-22,金,Premium Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,1,Friday,2026-05-22,金,Business,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,4,Wednesday,2026-06-10,水,Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,4,Wednesday,2026-06-10,水,Premium Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,4,Wednesday,2026-06-10,水,Business,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,4,Friday,2026-06-12,金,Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,4,Friday,2026-06-12,金,Premium Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,4,Friday,2026-06-12,金,Business,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,8,Wednesday,2026-07-08,水,Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,8,Wednesday,2026-07-08,水,Premium Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,8,Wednesday,2026-07-08,水,Business,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,8,Friday,2026-07-10,金,Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,8,Friday,2026-07-10,金,Premium Economy,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,LOCAL_OUT,HEL,NGO,Finland-Japan,base,AY_direct_watch,8,Friday,2026-07-10,金,Business,,,,HEL,,NGO,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Premium Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Business,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Premium Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Business,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Premium Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Business,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Premium Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Business,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Premium Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Business,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Premium Economy,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,KIX,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Business,,,,KIX,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Premium Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Business,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Premium Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Business,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Premium Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Business,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Premium Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Business,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Premium Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Business,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Premium Economy,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,HND,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Business,,,,HND,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Premium Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Wednesday,2026-05-20,水,Business,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Premium Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,1,Friday,2026-05-22,金,Business,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Premium Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Wednesday,2026-06-10,水,Business,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Premium Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,4,Friday,2026-06-12,金,Business,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Premium Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Wednesday,2026-07-08,水,Business,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Premium Economy,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NRT,HEL,Japan-Finland,benchmark,AY_direct_watch,8,Friday,2026-07-10,金,Business,,,,NRT,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,1,Wednesday,2026-05-20,水,Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,1,Wednesday,2026-05-20,水,Premium Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,1,Wednesday,2026-05-20,水,Business,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,1,Friday,2026-05-22,金,Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,1,Friday,2026-05-22,金,Premium Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,1,Friday,2026-05-22,金,Business,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,4,Wednesday,2026-06-10,水,Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,4,Wednesday,2026-06-10,水,Premium Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,4,Wednesday,2026-06-10,水,Business,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,4,Friday,2026-06-12,金,Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,4,Friday,2026-06-12,金,Premium Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,4,Friday,2026-06-12,金,Business,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,8,Wednesday,2026-07-08,水,Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,8,Wednesday,2026-07-08,水,Premium Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,8,Wednesday,2026-07-08,水,Business,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,8,Friday,2026-07-10,金,Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,8,Friday,2026-07-10,金,Premium Economy,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
+2026-05-14 08:08:05,JP_OUT,NGO,HEL,Japan-Finland,base,AY_direct_watch,8,Friday,2026-07-10,金,Business,,,,NGO,,HEL,,,,JPY,NO_AY_DIRECT_RESULT,SerpApi Google Flights API
