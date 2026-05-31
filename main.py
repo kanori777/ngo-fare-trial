@@ -190,6 +190,16 @@ def main():
                             })
 
     output_file = f"ay_direct_fare_result_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    success_rows = [
+    row for row in output_rows
+    if row.get("status") == "OK" and row.get("price") not in ("", None)
+]
+
+if not success_rows:
+    print("No successful fare results. CSV will not be created.")
+    return
+
+output_rows = success_rows
 
     fieldnames = [
         "check_date",
