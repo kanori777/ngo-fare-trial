@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 SERPAPI_KEY = os.environ.get("SERPAPI_KEY")
 ROUTES_FILE = "routes.csv"
 
-TARGET_WEEKS = [1, 4, 8]
+TARGET_WEEKS = [4]
 
 TARGET_WEEKDAYS = [
     {"name": "Wednesday", "weekday": 2, "jp": "水"},
@@ -22,11 +22,8 @@ CABIN_CLASSES = [
 def target_date_for_weekday(weeks_ahead, target_weekday):
     today = datetime.now().date()
     base_date = today + timedelta(weeks=weeks_ahead)
-
-    # Monday=0, Tuesday=1, Wednesday=2, ... Sunday=6
     monday_of_target_week = base_date - timedelta(days=base_date.weekday())
     target_date = monday_of_target_week + timedelta(days=target_weekday)
-
     return target_date.strftime("%Y-%m-%d")
 
 def fetch_flights(
@@ -55,12 +52,7 @@ def fetch_flights(
         "api_key": SERPAPI_KEY
     }
 
-    response = requests.get(
-        "https://serpapi.com/search",
-        params=params,
-        timeout=60
-    )
-
+    response = requests.get("https://serpapi.com/search", params=params, timeout=60)
     data = response.json()
 
     flights = []
@@ -74,7 +66,6 @@ def fetch_flights(
         total_duration = option.get("total_duration", "")
         legs = option.get("flights", [])
 
-        # 直行便のみ採用
         if len(legs) != 1:
             continue
 
@@ -82,7 +73,6 @@ def fetch_flights(
         airline = leg.get("airline", "")
         flight_number = leg.get("flight_number", "")
 
-        # フィンエアー便のみ採用
         if (
             "AY" not in str(flight_number)
             and "フィンエアー" not in str(airline)
@@ -189,17 +179,16 @@ def main():
                                 "source": "SerpApi Google Flights API"
                             })
 
-    output_file = f"ay_direct_fare_result_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
     success_rows = [
-    row for row in output_rows
-    if row.get("status") == "OK" and row.get("price") not in ("", None)
-]
+        row for row in output_rows
+        if row.get("status") == "OK" and row.get("price") not in ("", None)
+    ]
 
-if not success_rows:
-    print("No successful fare results. CSV will not be created.")
-    return
+    if not success_rows:
+        print("No successful fare results. CSV will not be created.")
+        return
 
-output_rows = success_rows
+    output_file = f"ay_direct_fare_result_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
 
     fieldnames = [
         "check_date",
@@ -231,7 +220,7 @@ output_rows = success_rows
     with open(output_file, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(output_rows)
+        writer.writerows(success_rows)
 
     print(f"saved: {output_file}")
 
