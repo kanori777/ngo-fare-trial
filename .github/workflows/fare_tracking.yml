@@ -2,8 +2,8 @@ name: Fare Tracking Trial
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 22 * * *"
+schedule:
+  - cron: "0 22 */5 * *"
 
 permissions:
   contents: write
