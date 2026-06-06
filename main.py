@@ -22,24 +22,11 @@ CABIN_CLASSES = [
 def target_date_for_weekday(weeks_ahead, target_weekday):
     today = datetime.now().date()
     base_date = today + timedelta(weeks=weeks_ahead)
-
-    # Monday=0, Tuesday=1, Wednesday=2, ... Sunday=6
     monday_of_target_week = base_date - timedelta(days=base_date.weekday())
     target_date = monday_of_target_week + timedelta(days=target_weekday)
-
     return target_date.strftime("%Y-%m-%d")
 
-def fetch_flights(
-    origin,
-    destination,
-    outbound_date,
-    airline_code,
-    cabin_class_name,
-    cabin_class_code,
-    weeks_ahead,
-    target_weekday_name,
-    target_weekday_jp
-):
+def fetch_flights(origin, destination, outbound_date, airline_code, cabin_class_name, cabin_class_code, weeks_ahead, target_weekday_name, target_weekday_jp):
     params = {
         "engine": "google_flights",
         "departure_id": origin,
