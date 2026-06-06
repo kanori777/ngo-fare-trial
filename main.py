@@ -22,8 +22,11 @@ CABIN_CLASSES = [
 def target_date_for_weekday(weeks_ahead, target_weekday):
     today = datetime.now().date()
     base_date = today + timedelta(weeks=weeks_ahead)
+
+    # Monday=0, Tuesday=1, Wednesday=2, ... Sunday=6
     monday_of_target_week = base_date - timedelta(days=base_date.weekday())
     target_date = monday_of_target_week + timedelta(days=target_weekday)
+
     return target_date.strftime("%Y-%m-%d")
 
 def fetch_flights(
@@ -52,8 +55,32 @@ def fetch_flights(
         "api_key": SERPAPI_KEY
     }
 
-    response = requests.get("https://serpapi.com/search", params=params, timeout=60)
+    response = requests.get(
+        "https://serpapi.com/search",
+        params=params,
+        timeout=60
+    )
+
     data = response.json()
+
+    if "error" in data:
+        return [{
+            "weeks_ahead": weeks_ahead,
+            "target_weekday": target_weekday_name,
+            "departure_weekday": target_weekday_jp,
+            "cabin_class": cabin_class_name,
+            "airline": "",
+            "flight_number": "",
+            "aircraft": "",
+            "departure_airport": origin,
+            "departure_time": "",
+            "arrival_airport": destination,
+            "arrival_time": "",
+            "duration": "",
+            "price": "",
+            "status": "API_ERROR",
+            "api_error": data.get("error", "")
+        }]
 
     flights = []
     flights.extend(data.get("best_flights", []))
@@ -66,6 +93,7 @@ def fetch_flights(
         total_duration = option.get("total_duration", "")
         legs = option.get("flights", [])
 
+        # 直行便のみ採用
         if len(legs) != 1:
             continue
 
@@ -73,6 +101,7 @@ def fetch_flights(
         airline = leg.get("airline", "")
         flight_number = leg.get("flight_number", "")
 
+        # フィンエアー便のみ採用
         if (
             "AY" not in str(flight_number)
             and "フィンエアー" not in str(airline)
@@ -94,7 +123,8 @@ def fetch_flights(
             "arrival_time": leg.get("arrival_airport", {}).get("time", ""),
             "duration": leg.get("duration", total_duration),
             "price": price,
-            "status": "OK"
+            "status": "OK",
+            "api_error": ""
         })
 
     if not rows:
@@ -112,7 +142,8 @@ def fetch_flights(
             "arrival_time": "",
             "duration": "",
             "price": "",
-            "status": "NO_AY_DIRECT_RESULT"
+            "status": "NO_AY_DIRECT_RESULT",
+            "api_error": ""
         })
 
     return rows
@@ -176,6 +207,7 @@ def main():
                                 "price": flight["price"],
                                 "currency": "JPY",
                                 "status": flight["status"],
+                                "api_error": flight["api_error"],
                                 "source": "SerpApi Google Flights API"
                             })
 
@@ -183,6 +215,26 @@ def main():
         row for row in output_rows
         if row.get("status") == "OK" and row.get("price") not in ("", None)
     ]
+
+    no_result_rows = [
+        row for row in output_rows
+        if row.get("status") == "NO_AY_DIRECT_RESULT"
+    ]
+
+    api_error_rows = [
+        row for row in output_rows
+        if row.get("status") == "API_ERROR"
+    ]
+
+    print(f"Total rows: {len(output_rows)}")
+    print(f"Success rows: {len(success_rows)}")
+    print(f"No result rows: {len(no_result_rows)}")
+    print(f"API error rows: {len(api_error_rows)}")
+
+    if api_error_rows:
+        print("API errors:")
+        for row in api_error_rows[:5]:
+            print(row.get("api_error", ""))
 
     if not success_rows:
         print("No successful fare results. CSV will not be created.")
@@ -214,6 +266,7 @@ def main():
         "price",
         "currency",
         "status",
+        "api_error",
         "source"
     ]
 
